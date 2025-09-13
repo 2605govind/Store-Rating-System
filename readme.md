@@ -61,7 +61,7 @@ DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.YOUR_PROJECT_ID.supabase.co:
 JWT_SECRET=yourSuperSecretKey
 ```
 
-* **DATABASE\_URL** → Copy from Supabase (Project → Connect → Direct connection).
+* **DATABASE\_URL** → Copy from Supabase (Project → Connect → Session pooler URL).
 * **JWT\_SECRET** → Any random secure string (used for signing JWTs).
 
 ---
