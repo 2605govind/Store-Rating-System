@@ -17,7 +17,7 @@ It supports multiple roles (`admin`, `store_owner`, `user`) and allows users to 
 ## 👤 Default Accounts
 
 You can view the live project using the following accounts:
-🔗 **Live Project Link:** \[https://store-rating-system-76pz.onrender.com]
+🔗 [Live Project Link](https://store-rating-system-76pz.onrender.com/)
 
 **Admin**
 📧 `admin@gmail.com`
