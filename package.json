@@ -1,0 +1,13 @@
+{
+  "name": "roxiler",
+  "version": "1.0.0",
+  "description": "<!-- supabase me SQL Editor pe jake create karo -->\r // create users table\r CREATE TABLE IF NOT EXISTS users (\r     id SERIAL PRIMARY KEY,\r     name VARCHAR(60) NOT NULL,\r     email VARCHAR(255) UNIQUE NOT NULL,\r     address VARCHAR(400),\r     password VARCHAR(255) NOT NULL,\r     role VARCHAR(20) NOT NULL CHECK (role IN ('admin','user','store_owner')),\r     created_at TIMESTAMP DEFAULT NOW()\r );",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
